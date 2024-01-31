@@ -1,0 +1,273 @@
+.crypto-table {
+    border-collapse: separate;
+    border-spacing: 0 12px;
+    background-color: #c1c1c104;
+    color: white;
+    margin-bottom: 25px;
+    width: 80%;
+}
+
+.crypto-table thead {
+    background-color: #34f5c6;
+    background-image: linear-gradient(135deg, #34f5c6, #1dcdfe);
+    color: white;
+}
+
+.table-nowrap td,
+.table-nowrap th {
+    white-space: nowrap;
+}
+
+.table-borderless>:not(caption)>*>* {
+    border-bottom-width: 0;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.75rem 0.75rem;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+
+.avatar-sm {
+    height: 2rem;
+    width: 2rem;
+}
+
+.avatar {
+    border-radius: 50% !important;
+    max-width: 80px;
+    height: 80px;
+}
+
+.me-2 {
+    margin-right: 0.5rem !important;
+}
+
+.crypto-table a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    min-width: 30px;
+}
+
+.badge-soft-danger {
+    color: #f56e6e !important;
+}
+
+.badge-soft-success {
+    color: #63ad6f !important;
+}
+
+
+.badge-soft-info {
+    color: #57c9eb !important;
+}
+
+.btn-buy-primary {
+    background-color: rgb(31, 208, 250) !important;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 6px;
+    padding: 5px 15px 5px 15px;
+}
+
+.btn-buy-primary:hover {
+    background-color: #34f5c6 !important;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 6px;
+    padding: 5px 15px 5px 15px;
+}
+
+.btn-sell-primary {
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .2);
+    text-align: center;
+    font-size: 12px;
+    border-radius: 6px;
+    padding: 5px 15px 5px 15px;
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 991px) {
+    .crypto-table {
+        border-spacing: 0 10px;
+        margin-bottom: 12px;
+        font-size: 12px;
+    }
+
+    .table>:not(caption)>*>* {
+        padding: 0.65rem 0.55rem;
+        background-color: var(--bs-table-bg);
+        border-bottom-width: 1px;
+        box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+    }
+
+
+    .btn-buy-primary {
+        background-color: rgb(31, 208, 250) !important;
+        text-align: center;
+        font-size: 12px;
+        border-radius: 6px;
+        padding: 8px 12px 8px 12px;
+    }
+
+    .btn-buy-primary:hover {
+        background-color: #34f5c6 !important;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 12px;
+        border-radius: 6px;
+        padding: 8px 12px 8px 12px;
+    }
+
+    .btn-sell-primary {
+        box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .2);
+        text-align: center;
+        font-size: 12px;
+        border-radius: 6px;
+        padding: 8px 12px 8px 12px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .crypto-table {
+        border-spacing: 0 8px;
+        margin-bottom: 12px;
+        font-size: 11px;
+    }
+
+    .table>:not(caption)>*>* {
+        padding: 0.65rem 0.45rem;
+        background-color: var(--bs-table-bg);
+        border-bottom-width: 1px;
+        box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+    }
+
+
+    .btn-buy-primary {
+        background-color: rgb(31, 208, 250) !important;
+        text-align: center;
+        font-size: 10px;
+        border-radius: 6px;
+        padding: 5px 10px 5px 10px;
+    }
+
+    .btn-buy-primary:hover {
+        background-color: #34f5c6 !important;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 10px;
+        border-radius: 6px;
+        padding: 5px 10px 5px 10px;
+    }
+
+    .btn-sell-primary {
+        box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .2);
+        text-align: center;
+        font-size: 10px;
+        border-radius: 6px;
+        padding: 5px 10px 5px 10px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .crypto-table {
+        border-spacing: 0 8px;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+
+    .table>:not(caption)>*>* {
+        padding: 0.65rem 0.45rem;
+        background-color: var(--bs-table-bg);
+        border-bottom-width: 1px;
+        box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+    }
+
+
+    .btn-buy-primary {
+        background-color: rgb(31, 208, 250) !important;
+        text-align: center;
+        font-size: 8px;
+        border-radius: 6px;
+        padding: 5px 8px 5px 8px;
+    }
+
+    .btn-buy-primary:hover {
+        background-color: #34f5c6 !important;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 8px;
+        border-radius: 6px;
+        padding: 5px 8px 5px 8px;
+    }
+
+    .btn-sell-primary {
+        box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .2);
+        text-align: center;
+        font-size: 8px;
+        border-radius: 6px;
+        padding: 5px 8px 5px 8px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
+    .crypto-table {
+        border-spacing: 0 8px;
+        margin-bottom: 3px;
+        font-size: 8px;
+        width: 90%;
+    }
+
+    .table>:not(caption)>*>* {
+        padding: 0.55rem 0.35rem;
+        background-color: var(--bs-table-bg);
+        border-bottom-width: 1px;
+        box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+    }
+
+
+    .btn-buy-primary {
+        background-color: rgb(31, 208, 250) !important;
+        text-align: center;
+        font-size: 6px;
+        border-radius: 6px;
+        padding: 4px 6px 4px 6px;
+    }
+
+    .btn-buy-primary:hover {
+        background-color: #34f5c6 !important;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 6px;
+        border-radius: 6px;
+        padding: 4px 6px 4px 6px;
+    }
+
+    .btn-sell-primary {
+        box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .2);
+        text-align: center;
+        font-size: 6px;
+        border-radius: 6px;
+        padding: 4px 6px 4px 6px;
+        margin-left: 5px;
+    }
+
+    .avatar {
+        border-radius: 50% !important;
+        max-width: 50px;
+        height: 50px;
+    }
+
+    .avatar-sm {
+        height: 1rem;
+        width: 1rem;
+    }
+
+}
